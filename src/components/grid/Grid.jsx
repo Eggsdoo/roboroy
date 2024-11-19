@@ -5,6 +5,7 @@ import './grid.css';
 
 const Grid = () => {
     const [robotPosition, setRobotPosition] = useState({ x: 0, y: 0, direction: 'north' });
+    
 
     const moveForward = () => {
         setRobotPosition((prevPosition) => {
@@ -49,12 +50,15 @@ const Grid = () => {
 
     return (
         <>
-        <div className="control-menu">
-            <Controls moveForward={moveForward} turnLeft={turnLeft} turnRight={turnRight}/>
-        </div>
-        <div className="grid">
-            <Robot x={robotPosition.x} y={robotPosition.y} direction={robotPosition.direction} />
-        </div>
+            <div className="control-menu">
+                <Controls moveForward={moveForward} turnLeft={turnLeft} turnRight={turnRight} />
+                <div className="current-direction">
+                    <h3>You are currently facing {robotPosition.direction}.</h3>
+                </div>
+            </div>
+            <div className="grid">
+                <Robot x={robotPosition.x} y={robotPosition.y} direction={robotPosition.direction} />
+            </div>
         </>
     );
 }
