@@ -4,7 +4,11 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);   
-    gap: 5px;  /* space between cells */
-  }
-  
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.grid-cell {
+    border: 1.5px solid #ccc;
+    background-color: #f0f0f0;
+}

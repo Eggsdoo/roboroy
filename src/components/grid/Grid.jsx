@@ -57,6 +57,33 @@ const Grid = () => {
                 </div>
             </div>
             <div className="grid">
+
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+                <div className="grid-cell"></div>
+
                 <Robot x={robotPosition.x} y={robotPosition.y} direction={robotPosition.direction} />
             </div>
         </>
