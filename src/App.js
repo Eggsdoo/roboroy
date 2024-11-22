@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import Grid from './components/grid/Grid';
-// import Controls from './components/controls/Controls';
+import Landing from './components/landing/Landing';
 
 function App() {
   return (
     <>
-      <div className='robo-container'>
-        <h1>Travels of Roboroy</h1>
-        <Grid/>
-      </div>
+      <Landing/>
     </>
   );
 }

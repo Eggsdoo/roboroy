@@ -1,0 +1,27 @@
+/* @import url('https://fonts.cdnfonts.com/css/russo-one'); */
+@import url('https://fonts.cdnfonts.com/css/anek-latin');
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-family: 'Anek Latin', sans-serif;                            
+    background-color: var(--btn-primary);
+    color: var(--btn-txt-primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 400ms ease;
+    text-transform: uppercase;
+}
+
+.controls button:hover {
+    background-color: var(--btn-primary-hvr);
+}

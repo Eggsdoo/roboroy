@@ -1,4 +1,5 @@
 import React from "react";
+import './controls.css';
 
 const Controls = ({moveForward, turnLeft, turnRight}) => {
     return (
