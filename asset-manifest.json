@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/roboroy/static/css/main.14e6457b.css",
+    "main.js": "/roboroy/static/js/main.c93f57be.js",
+    "static/js/453.5e756ca5.chunk.js": "/roboroy/static/js/453.5e756ca5.chunk.js",
+    "index.html": "/roboroy/index.html",
+    "main.14e6457b.css.map": "/roboroy/static/css/main.14e6457b.css.map",
+    "main.c93f57be.js.map": "/roboroy/static/js/main.c93f57be.js.map",
+    "453.5e756ca5.chunk.js.map": "/roboroy/static/js/453.5e756ca5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14e6457b.css",
+    "static/js/main.c93f57be.js"
+  ]
+}
