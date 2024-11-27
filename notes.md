@@ -1,7 +1,7 @@
 grid component:
 {x} - rendering a 5x5 grid
 {x} - displaying the robot's position on the grid
-{}  - add extra cardinal directions (ne,se,sw,nw)
+{}  - add extra cardinal directions (ne,se,sw,nw) (maybe?)
 
 robot component:
 {x} - handling the robot's current position and orientation (n,e,s,w)

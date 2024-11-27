@@ -54,6 +54,7 @@ const Grid = () => {
                 <Controls moveForward={moveForward} turnLeft={turnLeft} turnRight={turnRight} />
                 <div className="current-direction">
                     <h3>You are currently facing <span className="current-direction_sp">{robotPosition.direction}</span>.</h3>
+                    <h3>Current position: <span className="current-direction_sp">({robotPosition.x},{robotPosition.y})</span></h3>
                 </div>
             </div>
             <div className="grid">
